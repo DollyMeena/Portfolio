@@ -1,0 +1,233 @@
+@media(max-width:600px){
+    .container{
+        width: 100%;
+       flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        position: relative;
+        left: 0;
+    }
+    .right{
+        width: 100%;
+        height: 200vh;
+        padding-bottom: 50px;
+    }
+    .navbar h3{
+        color: #36658e;
+        font-family: Roboto_bold;
+        margin-left: 13px;
+    }
+    .nav h5{
+        visibility: hidden;
+    }
+    .nav i{
+        display:block;
+        font-size: 20px;
+        margin-left: -25px;
+
+    }
+    .right_home img{
+        width: 100%;
+        margin-top: 32%;
+    }
+    .home{
+        margin-top: -6px;
+    }
+    .about{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+    }
+    .about_left {
+        width: 100%;
+    }
+    .left_home p{
+        font-size: 14px;
+    }
+    .about_left img{
+        width: 67%;
+        height: 90%;
+        border-radius: 50%;
+        margin-top: 27px;
+        margin-left: 55px;
+    }
+    .about_right{
+        width: 85%;
+        margin: 30px;
+        text-align: center;
+    }
+    .about_right h6{
+        font-size: 16px;
+    }
+    .about_right h1{
+        font-size: 28px;
+    }
+    .about_right p{
+        font-size: 15px;
+    }
+    .skills{
+        flex-direction: column;
+    }
+    .skills_left{
+        width: 100%;
+        margin: 10px;
+    }
+    .skills_right{
+        display: none;
+    }
+    .skills_left p{
+        font-size: 15px;
+    }
+    .box1{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin:30px 30px;
+    }
+    .box{
+        width: 100%;
+        height: 50%;
+        transition: all 1s ease-in-out;
+        margin-bottom: 20px;
+        margin: 0 15px;
+    }
+    /* .box:hover{
+        background-color: #fff;
+        color: #333;
+        border-radius: 5px;
+        transform: scale(1.1);
+    } */
+    .contact{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: -16px 0px;
+        text-align: center;
+    }
+   .left_con{
+        width: 100%;
+    }
+    .right_con{
+        width: 100%;
+        text-align: center;
+    }
+    .input-box{
+        /* width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; */
+        width: 88%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 46px;
+    } 
+    .name{
+        color: #fff;
+    }
+
+}
+@media screen and (min-width:600px) and (max-width:1024px) 
+{
+    .container{
+        width: 100%;
+       flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        position: relative;
+        left: 0;
+    }
+    .right{
+        width: 100%;
+        height: 200vh;
+        padding-bottom: 50px;
+    }
+    .right_home img {
+        width: 90%;
+        margin-top: 4%;
+    }
+    .nav h5{
+        visibility: hidden;
+    }
+    .nav i{
+        display:block;
+        font-size: 20px;
+    }
+    .about{
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    .about_left {
+        width: 40%;
+    }
+    .about_left img{
+        width: 82%;
+        height: 70%;
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    .about_right{
+        width: 50%;
+        margin: 30px;
+        text-align: left;
+    }
+    .about_right h1{
+        font-size: 28px;
+    }
+    .about_right p{
+        font-size: 15px;
+    }
+    .about_right h6{
+        font-size: 16px;
+    }
+    .skills{
+        flex-direction:row;
+    }
+    .skills_left{
+        width: 50%;
+        margin: 10px;
+    }
+    .skills_right{
+        width: 50%;
+        display: block;
+        /* background-color: #fff; */
+    }
+    .skills_right img{
+        width: 75%;
+        margin-top: 45px;
+        margin-left: 40px;
+    }
+    .skills_left p{
+        font-size: 15px;
+    }
+    .box1{
+        width: 90%;
+        flex-direction:row;
+    }
+    .box{
+        width: 70%;
+        height: 80%;
+        padding: 12px 20px;
+    }
+    .box h6{
+        font-size: 17px;
+        text-transform: capitalize;
+        padding: 8px 0;
+    }
+    .box p{
+        font-size: 13px;
+    }
+    .box img{
+        width: 60%;
+    }
+    
+   
+}
